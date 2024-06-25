@@ -91,7 +91,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>Error</source>
@@ -709,7 +709,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bellcoin மையம்</translation>
+        <translation>Yenten மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

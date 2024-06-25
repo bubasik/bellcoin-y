@@ -172,8 +172,8 @@
         <translation>Confirmar criptografia da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS BELLCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YENTENS&lt;/b&gt;!</source>
+        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS YENTENS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas para um endereço bellcoin</translation>
+        <translation>Enviar moedas para um endereço yenten</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -363,7 +363,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -391,11 +391,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços Bellcoin para provar que você é dono delas</translation>
+        <translation>Assine mensagens com seus endereços Yenten para provar que você é dono delas</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Bellcoin específicos</translation>
+        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Yenten específicos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -415,7 +415,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitações de pagamentos (gera códigos QR e bellcoin: URIs)</translation>
+        <translation>Solicitações de pagamentos (gera códigos QR e yenten: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -427,7 +427,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir um bellcoin: URI ou cobrança</translation>
+        <translation>Abrir um yenten: URI ou cobrança</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -435,7 +435,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n conexão ativa na rede Bellcoin</numerusform><numerusform>%n conexões ativas na rede Bellcoin</numerusform></translation>
+        <translation><numerusform>%n conexão ativa na rede Yenten</numerusform><numerusform>%n conexões ativas na rede Yenten</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Bellcoin</translation>
+        <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Yenten</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,7 +549,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Um erro fatal ocorreu. Bellcoin não pode continuar em segurança e irá fechar.</translation>
+        <translation>Um erro fatal ocorreu. Yenten não pode continuar em segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -868,7 +868,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -880,7 +880,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 irá baixar e armazenar uma cópia da block chain do Bellcoin.</translation>
+        <translation>%1 irá baixar e armazenar uma cópia da block chain do Yenten.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -910,12 +910,12 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the yenten network, as detailed below.</source>
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Tentar gastar bellcoins que estão em transações ainda não exibidas, não vão ser aceitos pela rede.</translation>
+        <source>Attempting to spend yentens that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Tentar gastar yentens que estão em transações ainda não exibidas, não vão ser aceitos pela rede.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1085,7 +1085,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir as portas do cliente Bellcoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+        <translation>Abrir as portas do cliente Yenten automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1101,7 +1101,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar na rede Bellcoin através de um proxy SOCKS5.</translation>
+        <translation>Conectar na rede Yenten através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1137,7 +1137,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conecte-se à rede Bellcoin através de um proxy SOCKS5 separado para utilizar serviços ocultos Tor.</translation>
+        <translation>Conecte-se à rede Yenten através de um proxy SOCKS5 separado para utilizar serviços ocultos Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1244,7 +1244,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Bellcoin depois que a conexão é estabelecida, mas este processo ainda não está completo.</translation>
+        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Yenten depois que a conexão é estabelecida, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1319,7 +1319,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar bellcoin: manipulador click-to-pay</translation>
+        <translation>Não foi possível iniciar yenten: manipulador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1437,7 +1437,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Informe um endereço Bellcoin (ex: %1)</translation>
+        <translation>Informe um endereço Yenten (ex: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1861,7 +1861,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Bellcoin.</translation>
+        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Yenten.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2270,7 +2270,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Aviso: Endereço Bellcoin inválido</translation>
+        <translation>Aviso: Endereço Yenten inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2312,8 +2312,8 @@
         <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>O endereço Bellcoin para enviar o pagamento</translation>
+        <source>The Yenten address to send the payment to</source>
+        <translation>O endereço Yenten para enviar o pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2333,7 +2333,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida da quantia que está sendo enviada. O destinatário receberá menos bellcoins do que você colocou no campo de quantidade. Se vários destinatários estão selecionados, a taxa é dividida igualmente.</translation>
+        <translation>A taxa será deduzida da quantia que está sendo enviada. O destinatário receberá menos yentens do que você colocou no campo de quantidade. Se vários destinatários estão selecionados, a taxa é dividida igualmente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2361,7 +2361,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>A mensagem que foi anexada ao bellcoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Bellcoin.</translation>
+        <translation>A mensagem que foi anexada ao yenten: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Yenten.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2406,11 +2406,11 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Você pode assinar mensagens com seus endereços para provar que você pode receber bellcoins enviados por alguém. Cuidado para não assinar nada vago ou aleatório, pois ataques phishing podem tentar te enganar para assinar coisas para eles como se fosse você. Somente assine termos bem detalhados que você concorde.</translation>
+        <translation>Você pode assinar mensagens com seus endereços para provar que você pode receber yentens enviados por alguém. Cuidado para não assinar nada vago ou aleatório, pois ataques phishing podem tentar te enganar para assinar coisas para eles como se fosse você. Somente assine termos bem detalhados que você concorde.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>O endereço Bellcoin que assinará a mensagem</translation>
+        <source>The Yenten address to sign the message with</source>
+        <translation>O endereço Yenten que assinará a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2442,7 +2442,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Assinar mensagem para provar que você é dono deste endereço Bellcoin</translation>
+        <translation>Assinar mensagem para provar que você é dono deste endereço Yenten</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2466,11 +2466,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>O endereço Bellcoin que foi usado para assinar a mensagem</translation>
+        <translation>O endereço Yenten que foi usado para assinar a mensagem</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Bellcoin específico</translation>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Yenten específico</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3163,7 +3163,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bellcoin Core</translation>
+        <translation>Yenten Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

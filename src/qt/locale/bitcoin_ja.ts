@@ -55,19 +55,19 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>送金用</translation>
+        <translation>送金先アドレス</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>受け取りアドレス</translation>
+        <translation>受け取り用アドレス</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの Bellcoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <translation>これらは支払いを送信するためのあなたの Yenten アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>これらは支払いを受け取るためのベルコインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
+        <translation>これらは支払いを受け取るためのYentenアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Bellcoin はすべて失われます&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YENTENS&lt;/b&gt;!</source>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Yenten はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +184,8 @@
         <translation>ウォレットは暗号化されました</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>暗号化処理を完了させるため %1 をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるベルコインの盗難から完全に守ることはできないことにご注意ください。</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yentens from being stolen by malware infecting your computer.</source>
+        <translation>暗号化処理を完了させるため %1 をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるYentenの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Bellcoin アドレスにコインを送る</translation>
+        <translation>Yenten アドレスにコインを送る</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -395,11 +395,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの Bellcoin アドレスでメッセージに署名してください</translation>
+        <translation>あなたが所有していることを証明するために、あなたの Yenten アドレスでメッセージに署名してください</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>指定された Bellcoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <translation>指定された Yenten アドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>支払いを要求する (QRコードとbellcoin:ではじまるURIを生成する)</translation>
+        <translation>支払いを要求する (QRコードとyenten:ではじまるURIを生成する)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -431,7 +431,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>bellcoin: URIまたは支払いリクエストを開く</translation>
+        <translation>yenten: URIまたは支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -439,7 +439,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n の Bellcoin ネットワークへのアクティブな接続</numerusform></translation>
+        <translation><numerusform>%n の Yenten ネットワークへのアクティブな接続</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,7 +483,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>有効な Bellcoin のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
+        <translation>有効な Yenten のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,7 +553,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Bellcoin は安全に継続することができず終了するでしょう。</translation>
+        <translation>致命的なエラーが発生しました。Yenten は安全に継続することができず終了するでしょう。</translation>
     </message>
 </context>
 <context>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>入力されたアドレス "%1" は無効な Bellcoin アドレスです。</translation>
+        <translation>入力されたアドレス "%1" は無効な Yenten アドレスです。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -774,7 +774,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>ディレクトリがもうあります。 新しいのディレクトリを作るつもりなら%1を書いてください。</translation>
+        <translation>ディレクトリが既に存在します。新しいディレクトリを作りたい場合は %1 と追記してください。</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1はBellcoinのブロックチェーンの複製をダウンロードし保存します。</translation>
+        <translation>%1はYentenのブロックチェーンの複製をダウンロードし保存します。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -918,12 +918,12 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度ベルコインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the yenten network, as detailed below.</source>
+        <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度Yentenネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>まだ表示されていないトランザクションが影響するベルコインを使用しようとすると、ネットワークから認証がなされないでしょう。</translation>
+        <source>Attempting to spend yentens that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>まだ表示されていないトランザクションが影響するYentenを使用しようとすると、ネットワークから認証がなされないでしょう。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1069,7 +1069,7 @@
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = 自動、0以上 = 指定した数のコアをフリーにする)</translation>
+        <translation>(0 = 自動、&lt;0 = 指定した数のコアをフリーにする)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1093,7 +1093,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の Bellcoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <translation>自動的にルーター上の Yenten クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1109,7 +1109,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシ経由でBellcoinネットワークに接続する</translation>
+        <translation>SOCKS5 プロキシ経由でYentenネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1145,7 +1145,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でBellcoinネットワークに接続する</translation>
+        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でYentenネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1252,7 +1252,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Bellcoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Yenten ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1327,7 +1327,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bellcoin を起動できません: click-to-pay handler</translation>
+        <translation>Yenten を起動できません: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1343,7 +1343,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Bellcoin アドレスあるいは不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+        <translation>URI を解析できません! これは無効な Yenten アドレスあるいは不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1445,7 +1445,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Bellcoinアドレスを入力してください (例 %1)</translation>
+        <translation>Yentenアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1869,7 +1869,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはBellcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはYentenネットワークを通じて、支払と共に送られるわけではありません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1890,6 +1890,14 @@
     <message>
         <source>Clear</source>
         <translation>クリア</translation>
+    </message>
+    <message>
+        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don&apos;t support them. When unchecked, an address compatible with older wallets will be created instead.</source>
+        <translation>Native segwitアドレス（別名Bech32、BIP-173）は取引手数料が安くなり、誤記に対する保護も強くなりますが、古いウォレットでは扱えません。チェックを外すと、古いウォレットと互換性のあるアドレスを生成します。</translation>
+    </message>
+    <message>
+        <source>Generate native segwit (Bech32) address</source>
+        <translation>Native segwit (Bech32)アドレスを生成</translation>
     </message>
     <message>
         <source>Requested payments history</source>
@@ -2106,7 +2114,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどbellcoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどyentenトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2278,7 +2286,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告：無効なBellcoinアドレスです</translation>
+        <translation>警告：無効なYentenアドレスです</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2320,8 +2328,8 @@
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>支払の送金先Bellcoinアドレス</translation>
+        <source>The Yenten address to send the payment to</source>
+        <translation>支払の送金先Yentenアドレス</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2341,7 +2349,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>送金する金額から手数料が差し引かれます。受取人は数量フィールドで指定した量よりも少ないベルコインを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
+        <translation>送金する金額から手数料が差し引かれます。受取人は数量フィールドで指定した量よりも少ないYentenを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2369,7 +2377,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>bellcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはBellcoinネットワークを通して送信されるわけではありません。</translation>
+        <translation>yenten: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはYentenネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2414,11 +2422,11 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたベルコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
+        <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたYentenを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>メッセージを署名するBellcoinアドレス</translation>
+        <source>The Yenten address to sign the message with</source>
+        <translation>メッセージを署名するYentenアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2450,7 +2458,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>この Bellcoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <translation>この Yenten アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2474,11 +2482,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>メッセージの署名に使われたBellcoinアドレス</translation>
+        <translation>メッセージの署名に使われたYentenアドレス</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>指定された Bellcoin アドレスで署名されたことを保証するメッセージを検証</translation>
+        <translation>指定された Yenten アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3171,11 +3179,15 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bellcoin のコア</translation>
+        <translation>Yenten のコア</translation>
     </message>
     <message>
         <source>The %s developers</source>
         <translation>%s の開発者</translation>
+    </message>
+    <message>
+        <source>-sysperms is not allowed in combination with enabled wallet functionality</source>
+        <translation>-sysperms は有効化されているウォレットの機能と同時に使うことができません</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -3226,6 +3238,10 @@
         <translation>コンパクトブロック再構成のために追加のトランザクションをメモリ内に保管しておく (デフォルト: %u)</translation>
     </message>
     <message>
+        <source>Flush wallet database activity from memory to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>ウォレットデータベースのアクティビティを &lt;n&gt; メガバイトごとにメモリからディスクログに書き出す (デフォルト: %u)</translation>
+    </message>
+    <message>
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
         <translation>このブロックがブロックチェーン内に含まれていた場合には、このブロックおよびそれ以前のすべてのブロックを有効であるとみなし、スクリプトの検証を省略する (0ならすべてを検証、デフォルト: %s、テストネット: %s)</translation>
     </message>
@@ -3259,7 +3275,7 @@
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>スクリプト検証スレッドを設定 (%uから%dの間, 0 = 自動, &lt;0 = たくさんのコアを自由にしておく, 初期値: %d)</translation>
+        <translation>スクリプト検証スレッド数を設定 (%uから%dの間, 0 = 自動, &lt;0 = 指定した数のコアを使わずに残す, 初期値: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
@@ -3302,6 +3318,14 @@
         <translation>警告: ピアと完全に合意が取れていないようです！このノードまたは他のノードのアップグレードが必要なようです。</translation>
     </message>
     <message>
+        <source>What type of addresses to use (&quot;legacy&quot;, &quot;p2sh-segwit&quot;, or &quot;bech32&quot;, default: &quot;%s&quot;)</source>
+        <translation>使用するアドレスの種類  (&quot;legacy&quot;, &quot;p2sh-segwit&quot;, または &quot;bech32&quot;, デフォルト: &quot;%s&quot;)</translation>
+    </message>
+    <message>
+        <source>What type of change to use (&quot;legacy&quot;, &quot;p2sh-segwit&quot;, or &quot;bech32&quot;). Default is same as -addresstype, except when -addresstype=p2sh-segwit a native segwit output is used when sending to a native segwit address)</source>
+        <translation>使用するおつりの種類  (&quot;legacy&quot;, &quot;p2sh-segwit&quot;, or &quot;bech32&quot;)。デフォルトは -addresstype と同じ、ただし -addresstype=p2sh-segwit の場合にnative segwitアドレス宛に送るときはnative segwitアウトプットが使われます</translation>
+    </message>
+    <message>
         <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
         <translation>シャットダウン時に mempool を保存し、再起動時にロードするかどうか (初期値: %u)</translation>
     </message>
@@ -3312,6 +3336,10 @@
     <message>
         <source>%s corrupt, salvage failed</source>
         <translation>%s が壊れています。復旧にも失敗しました</translation>
+    </message>
+    <message>
+        <source>%s is only allowed with a single wallet file</source>
+        <translation>%s は単一のウォレットファイルでのみ許可されます</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
@@ -3327,11 +3355,11 @@
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>ユーザエージェント文字列にコメントを</translation>
+        <translation>ユーザエージェント文字列にコメントを追加する</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>起動時に壊れたウォレットから秘密鍵を復旧することを試す</translation>
+        <translation>起動時に壊れたウォレットから秘密鍵の復元を試みる</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3352,6 +3380,10 @@
     <message>
         <source>Connection options:</source>
         <translation>接続オプション：</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i</source>
+        <translation>Copyright (C) %i</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
@@ -3476,7 +3508,7 @@
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>認証クッキーの場所 (デフォルト: )</translation>
+        <translation>認証クッキーの場所 (デフォルト: データディレクトリ)</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
@@ -3519,6 +3551,10 @@
         <translation>ブロックを巻き戻しています...</translation>
     </message>
     <message>
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>ウォレットの変更を書き出すスレッドを定期的に実行する (default: %u)</translation>
+    </message>
+    <message>
         <source>Send transactions with full-RBF opt-in enabled (RPC only, default: %u)</source>
         <translation>手数料上乗せ(RBF)がオプトイン形式で有効化されているときRBFを利用してトランザクションを送信する (RPCコマンドのみ。初期値: %u)</translation>
     </message>
@@ -3527,8 +3563,12 @@
         <translation>データベースのキャッシュサイズをメガバイトで設定 (%dから%d。初期値: %d)</translation>
     </message>
     <message>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>ウォレットdb環境でDB_PRIVATEフラグを設定する (デフォルト: %u)</translation>
+    </message>
+    <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>ウォレットのファイルを指定　(データ・ディレクトリの中に)</translation>
+        <translation>ウォレットのファイルを指定 (データディレクトリ内)</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
@@ -3541,6 +3581,14 @@
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
         <translation>このコンピュータの %s にバインドすることができません。おそらく %s は既に実行されています。</translation>
+    </message>
+    <message>
+        <source>Unknown address type &apos;%s&apos;</source>
+        <translation>未知のアドレス種別 &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <source>Unknown change type &apos;%s&apos;</source>
+        <translation>未知のおつり種別 &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -3612,7 +3660,7 @@
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>関連のアラートをもらってもすごく長いのフォークを見てもコマンドを実行 (コマンドの中にあるの%sはメッセージから置き換えさせる)</translation>
+        <translation>関連するアラートを受け取った、またはとても長いフォークがあった際にコマンドを実行 (cmd の %s はメッセージに置換される)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
@@ -3739,6 +3787,18 @@
         <translation>取引の署名に失敗しました</translation>
     </message>
     <message>
+        <source>Specified -walletdir "%s" does not exist</source>
+        <translation>指定された -walletdir "%s" は存在しません</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is a relative path</source>
+        <translation>指定された -walletdir "%s" は相対パスです</translation>
+    </message>
+    <message>
+        <source>Specified -walletdir "%s" is not a directory</source>
+        <translation>指定された-walletdir "%s" はディレクトリではありません</translation>
+    </message>
+    <message>
         <source>The transaction amount is too small to pay the fee</source>
         <translation>トランザクションの金額が小さすぎて手数料を支払えません</translation>
     </message>
@@ -3820,7 +3880,7 @@
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>最良のブロックに変更する際にコマンドを実行 (cmd の %s はブロック ハッシュに置換される)</translation>
+        <translation>最良のブロックが変わった際にコマンドを実行 (cmd の %s はブロック ハッシュに置換される)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -3884,7 +3944,7 @@
     </message>
     <message>
         <source>Specify directory to hold wallets (default: &lt;datadir&gt;/wallets if it exists, otherwise &lt;datadir&gt;)</source>
-        <translation>ウォレットを保持するディレクトリの指定 (初期値: &lt;datadir&gt;/wallets 存在する場合、その他の場合 &lt;datadir&gt;)</translation>
+        <translation>ウォレットを保持するディレクトリの指定 (初期値: 存在する場合 &lt;datadir&gt;/wallets、その他の場合 &lt;datadir&gt;)</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
@@ -3936,7 +3996,7 @@
     </message>
     <message>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>ホワイトリストとして登録するピアノ、接続元の IP アドレス (例: 1.2.3.4) または CIDR 表現のネットワーク (例: 1.2.3.0/24)。複数回指定することもできる</translation>
+        <translation>ホワイトリストとして登録するピアの、接続元の IP アドレス (例: 1.2.3.4) または CIDR 表現のネットワーク (例: 1.2.3.0/24)。複数回指定することもできる。</translation>
     </message>
     <message>
         <source>%s is set very high!</source>

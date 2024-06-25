@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Bellcoin-Qt</string>
+  <string>Yenten-Qt</string>
 
   <key>CFBundleName</key>
-  <string>Bellcoin-Qt</string>
+  <string>Yenten-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>jp.web4u.bellcoin.Bellcoin-Qt</string>
+  <string>yenten.Yenten-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

@@ -91,7 +91,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Bellcoin មួយ</translation>
+        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Yenten មួយ</translation>
     </message>
     <message>
         <source>Wallet</source>

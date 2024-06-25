@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Bellcoin"
-            VALUE "FileDescription",    "bellcoin-cli (JSON-RPC client for " PACKAGE_NAME ")"
+            VALUE "CompanyName",        "Yenten"
+            VALUE "FileDescription",    "yenten-cli (JSON-RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "bellcoin-cli"
+            VALUE "InternalName",       "yenten-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "bellcoin-cli.exe"
-            VALUE "ProductName",        "bellcoin-cli"
+            VALUE "OriginalFilename",   "yenten-cli.exe"
+            VALUE "ProductName",        "yenten-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

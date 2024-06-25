@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ Bellcoin để gửi bạn gửi tiền. Trước khi gửi bạn nên kiểm tra lại số tiền bạn muốn gửi và địa chỉ bellcoin của người nhận.</translation>
+        <translation>Đây là các địa chỉ Yenten để gửi bạn gửi tiền. Trước khi gửi bạn nên kiểm tra lại số tiền bạn muốn gửi và địa chỉ yenten của người nhận.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là các địa chỉ Bellcoin để bạn nhận tiền. Với mỗi giao dịch, bạn nên dùng một địa chỉ Bellcoin mới để nhận tiền.</translation>
+        <translation>Đây là các địa chỉ Yenten để bạn nhận tiền. Với mỗi giao dịch, bạn nên dùng một địa chỉ Yenten mới để nhận tiền.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -332,7 +332,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Gửi coins đến tài khoản Bellcoin</translation>
+        <translation>Gửi coins đến tài khoản Yenten</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -356,7 +356,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -384,11 +384,11 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Dùng địa chỉ Bellcoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
+        <translation>Dùng địa chỉ Yenten của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Bellcoin xác định.</translation>
+        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Yenten xác định.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -408,7 +408,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Bellcoin: URLs)</translation>
+        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Yenten: URLs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -420,7 +420,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Mở bellcoin:URL hoặc yêu cầu thanh toán</translation>
+        <translation>Mở yenten:URL hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -428,7 +428,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n liên kết hoạt động với mạng lưới Bellcoin</numerusform></translation>
+        <translation><numerusform>%n liên kết hoạt động với mạng lưới Yenten</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -472,7 +472,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Hiển thị tin nhắn trợ giúp %1 để có được danh sách với các tùy chọn dòng lệnh Bellcoin.</translation>
+        <translation>Hiển thị tin nhắn trợ giúp %1 để có được danh sách với các tùy chọn dòng lệnh Yenten.</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
@@ -653,7 +653,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>Error</source>
@@ -706,7 +706,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Kết nối đến máy chủ Bellcoin thông qua SOCKS5 proxy.</translation>
+        <translation>Kết nối đến máy chủ Yenten thông qua SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1224,7 +1224,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bellcoin Core</translation>
+        <translation>Yenten Core</translation>
     </message>
     <message>
         <source>(default: %u)</source>

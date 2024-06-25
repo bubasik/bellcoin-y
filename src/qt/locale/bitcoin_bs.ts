@@ -15,7 +15,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     </context>
 <context>
@@ -34,7 +34,7 @@
     <name>Intro</name>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     </context>
 <context>
@@ -161,7 +161,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bellcoin Jezrga</translation>
+        <translation>Yenten Jezrga</translation>
     </message>
     </context>
 </TS>

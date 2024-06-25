@@ -65,12 +65,16 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bellcoind
+  bin_PROGRAMS += yentend
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bellcoin-cli bellcoin-tx
+  bin_PROGRAMS += yenten-cli yenten-tx
 endif
+
+libbitcoin_common_a_CFLAGS = -fPIC
+libbitcoin_crypto_a_CFLAGS = -fPIC
+crypto_libbitcoin_crypto_a_CFLAGS = -fPIC
 
 .PHONY: FORCE check-symbols check-security
 # bitcoin core #
@@ -383,16 +387,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-bellcoind_SOURCES = bitcoind.cpp
-bellcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bellcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bellcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+yentend_SOURCES = bitcoind.cpp
+yentend_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+yentend_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+yentend_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bellcoind_SOURCES += bitcoind-res.rc
+yentend_SOURCES += bitcoind-res.rc
 endif
 
-bellcoind_LDADD = \
+yentend_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -406,38 +410,38 @@ bellcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-bellcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+yentend_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-bellcoin_cli_SOURCES = bitcoin-cli.cpp
-bellcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-bellcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bellcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+yenten_cli_SOURCES = bitcoin-cli.cpp
+yenten_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+yenten_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+yenten_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bellcoin_cli_SOURCES += bitcoin-cli-res.rc
+yenten_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-bellcoin_cli_LDADD = \
+yenten_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-bellcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+yenten_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-bellcoin_tx_SOURCES = bitcoin-tx.cpp
-bellcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bellcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bellcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+yenten_tx_SOURCES = bitcoin-tx.cpp
+yenten_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+yenten_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+yenten_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bellcoin_tx_SOURCES += bitcoin-tx-res.rc
+yenten_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-bellcoin_tx_LDADD = \
+yenten_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -445,13 +449,13 @@ bellcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-bellcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+yenten_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
-libbitcoinconsensus_la_SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) $(libbitcoin_consensus_a_SOURCES)
+libbitcoinconsensus_la_SOURCES = support/cleanse.cpp $(crypto_libbitcoin_crypto_a_SOURCES) $(libbitcoin_consensus_a_SOURCES)
 
 if GLIBC_BACK_COMPAT
   libbitcoinconsensus_la_SOURCES += compat/glibc_compat.cpp

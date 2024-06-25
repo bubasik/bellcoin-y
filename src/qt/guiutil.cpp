@@ -146,7 +146,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("bellcoin"))
+    if(!uri.isValid() || uri.scheme() != QString("yenten"))
         return false;
 
     SendCoinsRecipient rv;
@@ -210,9 +210,9 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("bellcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("yenten://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "bellcoin:");
+        uri.replace(0, 10, "yenten:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -220,7 +220,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("bellcoin:%1").arg(info.address);
+    QString ret = QString("yenten:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -713,8 +713,8 @@ fs::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "bellcoin.desktop";
-    return GetAutostartDir() / strprintf("bellcoin-%s.lnk", chain);
+        return GetAutostartDir() / "yenten.desktop";
+    return GetAutostartDir() / strprintf("yenten-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -758,9 +758,9 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Bellcoin\n";
+            optionFile << "Name=Yenten\n";
         else
-            optionFile << strprintf("Name=Bellcoin (%s)\n", chain);
+            optionFile << strprintf("Name=Yenten (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

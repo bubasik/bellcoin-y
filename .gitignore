@@ -2,9 +2,9 @@
 
 *.exe
 src/bitcoin
-src/bellcoind
-src/bellcoin-cli
-src/bellcoin-tx
+src/yentend
+src/yenten-cli
+src/yenten-tx
 src/test/test_bitcoin
 src/test/test_bitcoin_fuzzy
 src/qt/test/test_bitcoin-qt
@@ -80,8 +80,8 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bellcoin-qt
-Bellcoin-Qt.app
+yenten-qt
+Yenten-Qt.app
 background.tiff*
 db4
 

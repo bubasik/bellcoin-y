@@ -99,7 +99,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -166,7 +166,7 @@
     <name>Intro</name>
     <message>
         <source>Bitcoin</source>
-        <translation>Bellcoin</translation>
+        <translation>Yenten</translation>
     </message>
     </context>
 <context>
@@ -195,7 +195,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Nyora kero ye Bellcoin (sekuti %1)</translation>
+        <translation>Nyora kero ye Yenten (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
